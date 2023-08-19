@@ -35,17 +35,45 @@
             ]
         },
         {
-            "name": "Blog",
-            "url": "/blog"
+            "name": "Services",
+            "url": "/services"
         },
+
         {
-            "name": "Features",
-            "url": "/features"
+            "name": "Products",
+            "url": "",
+            "hasChildren": true,
+            "children": [{
+                    "name": "Caustic Soda Lye",
+                    "url": "/caustic-soda-lye"
+                },
+                {
+                    "name": "Citric Acid",
+                    "url": "/citric-acid"
+                },
+                {
+                    "name": "Disodium Phosphate",
+                    "url": "/disodium-phosphate"
+                },
+                {
+                    "name": "Edta Diasodium Salt",
+                    "url": "/edta-diasodium-salt"
+                },
+                {
+                    "name": "Edta Tetra Sodium",
+                    "url": "/edta-Tetra-Sodium"
+                },
+                {
+                    "name": "Edta Tri Sodium",
+                    "url": "/edta-tri-sodium"
+                }
+
+            ]
         },
-        {
-            "name": "How It Works",
-            "url": "/how-it-works"
-        },
+
+
+
+
 
         {
             "name": "Contact",
