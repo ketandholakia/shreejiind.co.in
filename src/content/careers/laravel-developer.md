@@ -1,7 +1,7 @@
 ---
 title: "Laravel Developer"
 excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
-location: San Francisco
+# location: San Francisco
 categories: ["developer"]
 job_nature: "Full Time"
 date: 2021-07-14

@@ -2,7 +2,7 @@
 title: "Head Design"
 excerpt: Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam lorem amet eget in netus laoreet
 job_nature: "Remote"
-location: San Francisco
+# location: San Francisco
 categories: ["developer"]
 date: 2021-07-13
 draft: false

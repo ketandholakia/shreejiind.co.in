@@ -6,7 +6,7 @@ import menu from "@config/menu.json";
 import social from "@config/social.json";
 import { markdownify } from "@lib/utils/textConverter";
 const { footer } = menu;
-const { copyright, location, email, phone, footer_description } = config.params;
+const { copyright, location_office, location_works, email, phone, footer_description } = config.params;
 ---
 
 <footer class="footer bg-[#F1F1F1]">
@@ -17,11 +17,6 @@ const { copyright, location, email, phone, footer_description } = config.params;
         <p class="mt-6">
           {footer_description}
         </p>
-      </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Socials</h6>
-
-        <Social source={social} className="social-icons mt-4 lg:mt-6" />
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
         <h6>Quick Links</h6>
@@ -38,9 +33,9 @@ const { copyright, location, email, phone, footer_description } = config.params;
         </ul>
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <h6>Location & Contact</h6>
+        <h6>Office: </h6>
         <ul>
-          <li class="mb-2">{location}</li>
+          <li class="mb-2">{location_office}</li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
               >{email}</a>
@@ -50,6 +45,22 @@ const { copyright, location, email, phone, footer_description } = config.params;
               >{phone}</a>
           </li>
         </ul>
+      </div>
+      <div class="col-12 mt-12 md:col-6 lg:col-3">
+
+      <h6>Works: </h6>
+        <ul>
+          <li class="mb-2">{location_works}</li>
+          <li class="mb-2">
+            <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
+              >{email}</a>
+          </li>
+          <li>
+            <a class="hover:text-primary hover:underline" href={`tel:${phone}`}
+              >{phone}</a>
+          </li>
+        </ul>
+      </div>
       </div>
     </div>
   </div>

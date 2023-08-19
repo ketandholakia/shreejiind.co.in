@@ -81,7 +81,7 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
                         fill="currentColor"
                       />
                     </svg>
-                    {post.data.location}
+                    {/* {post.data.location} */}
                   </li>
                   <li className="my-1 mr-8">
                     <a

@@ -1,41 +1,39 @@
 {
-    "main": [
-        {
+    "main": [{
             "name": "Home",
             "url": "/"
         },
         {
-          "name": "About Us",
-          "url": "",
-          "hasChildren": true,
-          "children": [
-              {
-                  "name": "Company Profile",
-                  "url": "/company-profile"
-              },
-              {
-                  "name": "Infra Structure",
-                  "url": "/infrastructure"
-              },
-              {
-                  "name": "Quality Policy",
-                  "url": "/quality-policy"
-              },
-              {
-                  "name": "Research & Development",
-                  "url": "/research-development"
-              },
-              {
-                  "name": "Certification",
-                  "url": "/certification"
-              },
-              {
-                  "name": "Social Responsibility",
-                  "url": "/social-responsibility"
-              }
-              
-          ]
-      },
+            "name": "About Us",
+            "url": "",
+            "hasChildren": true,
+            "children": [{
+                    "name": "Company Profile",
+                    "url": "/company-profile"
+                },
+                {
+                    "name": "Infra Structure",
+                    "url": "/infrastructure"
+                },
+                {
+                    "name": "Quality Policy",
+                    "url": "/quality-policy"
+                },
+                {
+                    "name": "Research & Development",
+                    "url": "/research-development"
+                },
+                {
+                    "name": "Certification",
+                    "url": "/certification"
+                },
+                {
+                    "name": "Social Responsibility",
+                    "url": "/social-responsibility"
+                }
+
+            ]
+        },
         {
             "name": "Blog",
             "url": "/blog"
@@ -48,28 +46,27 @@
             "name": "How It Works",
             "url": "/how-it-works"
         },
-        
+
         {
             "name": "Contact",
             "url": "/contact"
         }
     ],
-    "footer": [
-        {
-            "name": "About",
-            "url": "/about"
+    "footer": [{
+            "name": "Company Profile",
+            "url": "/company-profile"
         },
         {
-            "name": "Contact",
+            "name": "products",
+            "url": "/products"
+        },
+        {
+            "name": "Inquiry",
+            "url": "/inquiry"
+        },
+        {
+            "name": "contact",
             "url": "/contact"
-        },
-        {
-            "name": "Elements",
-            "url": "/elements"
-        },
-        {
-            "name": "Changelog",
-            "url": "/changelog"
         }
     ]
 }
